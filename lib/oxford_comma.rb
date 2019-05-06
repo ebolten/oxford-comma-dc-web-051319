@@ -3,10 +3,10 @@ def oxford_comma(array)
   stringNames = ""
 
   if array.length == 2
-    stringNames = array.split(" and ")
-  elsif array.length == 2
-    stringNames = array[1:0].split(", ")
-    stringNames << array[2].split(" and ")
+    stringNames = array.join(" and ")
+  elsif array.length == 3
+    stringNames = array[1:0].join(", ")
+    stringNames << array[2].join(" and ")
   end
 
 
