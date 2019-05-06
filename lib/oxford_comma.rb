@@ -10,7 +10,8 @@ def oxford_comma(array)
     stringNames << array[2].join(" and ")
   else
     stringNames = array.join(", ")
-    stringNames =
+
+  end
 
 
 
